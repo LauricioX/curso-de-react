@@ -1,0 +1,18 @@
+.criado pelo facebook
+.biblioteca para criação de interfaces
+.roda javascript roda do lado do servidor
+.baseado em javascript ES6
+.react so atualiza  os componentes que sofreran alterações
+
+
+trabalha com modelo composicional (cada parte de uma aplicação é um componente )
+um componente pode ter componentes;
+
+exemplo;
+
+  function obterDados(username){
+       return{
+          imagem: obterImagemPerfil(username),
+          link: obterLink(username)
+          }
+    }
