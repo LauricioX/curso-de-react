@@ -6,7 +6,7 @@ curso de react com profesor bruno cfb cursos
 
 ## instrutura basica 
 
-<!-- import React from "react";
+import React from "react";
 
 export default function App(){
 return(
@@ -19,14 +19,14 @@ return(
 
 )
 
-} -->
+}
 
 ##########################################################################################################################
 
 
 
 # usando variaveis 
-<!-- 
+
 import React from "react";
 import "./App.css"
 import Header  from "./components/Header"
@@ -47,13 +47,13 @@ return(
 
 )
 
-} -->
+}
 
 
 
 # usoando componentes 
 
-<!-- import React from "react";
+import React from "react";
 import logo from "./images/lg.png"
 import "../styles/Header.css"
 
@@ -69,12 +69,12 @@ return(
         </nav>
     </header>
 )
-} -->
+}
 
 
 # Usando Props 
 
-<!-- import React from "react";
+import React from "react";
 
 export default function Dados(props){
     return (
@@ -86,10 +86,10 @@ export default function Dados(props){
         </div>
         </>
     )
-} -->
+}
 
 
-<!-- import React from "react"
+import React from "react"
 import Dados from "./Dados"
 export default function Body(){
     let nm = "lauricio"
@@ -98,4 +98,4 @@ export default function Body(){
         <Dados    nome = {nm}  />
         </>
     )
-} -->
+}
