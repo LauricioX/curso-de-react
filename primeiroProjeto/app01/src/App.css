@@ -2,3 +2,40 @@
   color: violet;
   font-size: 3rem;
 }
+
+.dados__container{
+  width: 100vw;
+
+}
+
+
+.cards__container{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 10px;
+  flex-wrap: wrap;
+}
+
+
+.card {
+  width: 100%;
+  max-width: 300px;
+  background-color: rgb(13, 12, 14);
+  padding: 10px;
+  border-radius: 20px;
+  
+
+}
+
+.card__title{
+  text-align: center;
+  color: #61dbfc;  
+}
+
+.card__pic img{
+  width: 300px;
+  border-radius: 20px;
+}
