@@ -12,39 +12,17 @@ import Leads  from "./components/Leds";
 export default function App(){
     const [num, setNum] = useState(10);
     const [ligado,setLigado]=useState(false); 
-    const [ok,setOk]=useState("ola mundo")
+    const [ok,setOk]=useState("ola mundo");
 
 
- const hora = () =>{
-    const aHora = new Date().getHours();
-
-    if(aHora > 0 && aHora <= 12 ){
-        return (
-                <p>
-                    bom dia! 
-                </p>
-        );
-    }else   if(aHora >12 && aHora <= 18 ){
-        return (
-                <p>
-                    boa tarde! 
-                </p>
-        );
-    }else{
-        return (
-            <p>
-                boa noite! 
-            </p>
-    );
-    }
-
- }
+  const [nome,setNome] = useState("");
 
 return(
 
 <>
 <Header/>
-{hora()}
+<input type="text" onChange={(e)=>setNome(e.target.value)}/>
+<p>seu nome é:{nome} </p>
 
 <Body/>
 <p>
