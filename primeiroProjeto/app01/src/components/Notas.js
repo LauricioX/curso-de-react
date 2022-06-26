@@ -5,6 +5,7 @@ function Notas(props){
  <>
  <div style={{display:"flex",flexDirection:"column", alignItems:"center"}}>
 <label>informe a nota: {props.num}</label>
+
 <input  type="text" value={props.nota} onChange={(e)=>props.setNota(e.target.value)}/>
 
 
