@@ -36,6 +36,7 @@ render(){
   teste de props em componentes de classes
   use {this.props.variavel}
   </p>
+  
   </>
   )
 
