@@ -1,0 +1,7 @@
+useEffect(()=>{
+    fetch('https://api-cfb.lauriciomalek.repl.co')
+    .then(res=>res.json())
+    .then((res)=>{
+        setCarros(res)
+    })
+})
